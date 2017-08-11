@@ -1,0 +1,194 @@
+
+@media only screen and (max-width: 980px) {
+
+/**********
+HEADER
+***********/
+
+header { 
+	max-width: 730px;
+	margin: 0 auto; 
+}
+
+div .logo {
+	max-width: 210px;
+	padding: 20px;
+
+}		
+	
+/**********
+BODY-ABOUT-CONTACT
+***********/
+
+#body-container {
+	margin: 40px auto;
+	max-width: 730px;
+}
+	
+	
+.main-content {
+	max-width: 360px;
+}
+
+.mainContentBio img {
+	width: 100%;
+	display: block;
+	margin: 10px auto;
+	float: none;
+
+}
+	
+/**********
+BODY-PORTFOLIO
+***********/
+.portfolio-container {
+	max-width: 360px;
+ }  
+  
+#gallery li {
+
+ 	display: block;
+ 	margin: 20px auto;
+	float: none;
+	clear:both;
+ }
+
+
+div.backgroundHangman {
+  background: url(../images/abstract-q-c-275-205-5.jpg);
+	 width: 360px; 
+	height: 270px;
+}
+
+div.backgroundRpg {
+  background: url(../images/animals-q-c-275-205-5.jpg);
+  width: 360px; 
+	height: 270px;
+}
+
+div.backgroundTrivia {
+  background: url(../images/city-q-c-275-205-2.jpg);
+  width: 360px; 
+	height: 270px;
+  
+}
+
+div.backgroundRutgers {
+  background: url(../images/nature-q-c-275-205-8.jpg);
+  width: 360px; 
+	height: 270px;
+ 
+}
+
+div.backgroundRockPaperScissors {
+  background: url(../images/nightlife-q-c-275-205-7.jpg);
+  width: 360px; 
+	height: 270px;
+}
+
+@media only screen and (max-width: 768px) {
+/**************
+GENERAL-ABOUT-CONTACT
+**************/
+section  {
+	clear: both;
+	margin: 40px 20px;
+	float: none;
+	}
+
+.main-content {
+	max-width: 730px;
+	display: block;
+	margin: 0 auto;
+}
+
+.mainContentBio img {
+
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+  /**************
+GENERAL-PORTFOLIO
+**************/
+.portfolio-container {
+	max-width: 730px;
+	margin: 40px auto;
+	display: block;
+}  
+  
+#gallery li {
+float: left;
+display: list-item;
+margin: 30px 10px;
+list-style: none;
+
+}	
+
+#gallery .list-1 { 
+	margin-left: 0;
+  }
+
+#gallery .list-2 { 
+		margin-right: 0;
+		clear: right;
+  }
+
+#gallery .list-3 { 
+	margin-left: 0;
+  }
+
+#gallery .list-4 { 
+	margin-right: 0;
+	clear: right;
+}
+
+#gallery .list-5 { 
+	margin-left: 0;
+}
+
+div.backgroundHangman {
+  background: url(../images/abstract-q-c-275-205-5.jpg);
+ 	width: 315px; 
+	height: 235px;
+}
+
+div.backgroundRpg {
+  background: url(../images/animals-q-c-275-205-5.jpg);
+  width: 315px; 
+	height: 235px;
+}
+
+div.backgroundTrivia {
+  background: url(../images/city-q-c-275-205-2.jpg);
+  width: 315px; 
+	height: 235px;
+}
+
+div.backgroundRutgers {
+  background: url(../images/nature-q-c-275-205-8.jpg);
+  width: 315px; 
+	height: 235px;
+ 
+}
+
+div.backgroundRockPaperScissors {
+  background: url(../images/nightlife-q-c-275-205-7.jpg);
+  width: 315px; 
+	height: 235px;
+}
+
+/**************
+SIDEBAR
+**************/
+	.sidebar {
+			max-width: 730px;
+			float: none;
+			display: block;
+			margin: 40px auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+
+
+}
