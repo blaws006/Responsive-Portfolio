@@ -5,6 +5,9 @@
 HEADER
 ***********/
 
+#header-container {
+	max-width: 980px;
+}
 header { 
 	max-width: 730px;
 	margin: 0 auto; 
@@ -22,16 +25,21 @@ BODY-ABOUT-CONTACT
 
 #body-container {
 	margin: 40px auto;
-	max-width: 730px;
+	max-width: 100%;
 }
-	
+
+#wrap {
+	max-width: 730px;
+	margin: 40px auto;
+
+}	
 	
 .main-content {
 	max-width: 360px;
 }
 
 .mainContentBio img {
-	width: 100%;
+	max-width: 100%;
 	display: block;
 	margin: 10px auto;
 	float: none;
@@ -48,71 +56,48 @@ BODY-PORTFOLIO
 #gallery li {
 
  	display: block;
- 	margin: 20px auto;
+ 	margin: 0 auto;
 	float: none;
 	clear:both;
  }
 
 
-div.backgroundHangman {
-  background: url(../images/abstract-q-c-275-205-5.jpg);
-	 width: 360px; 
-	height: 270px;
-}
-
-div.backgroundRpg {
-  background: url(../images/animals-q-c-275-205-5.jpg);
-  width: 360px; 
-	height: 270px;
-}
-
-div.backgroundTrivia {
-  background: url(../images/city-q-c-275-205-2.jpg);
-  width: 360px; 
-	height: 270px;
-  
-}
-
-div.backgroundRutgers {
-  background: url(../images/nature-q-c-275-205-8.jpg);
-  width: 360px; 
-	height: 270px;
- 
-}
-
-div.backgroundRockPaperScissors {
-  background: url(../images/nightlife-q-c-275-205-7.jpg);
-  width: 360px; 
-	height: 270px;
+#gallery img {
+	max-width: 350px;
+	width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
+#header-container {
+	max-width: 768px;
+}
+
 /**************
 GENERAL-ABOUT-CONTACT
 **************/
-section  {
-	clear: both;
-	margin: 40px 20px;
-	float: none;
-	}
+#wrap {
+	max-width: 768px;
+
+}	
+
 
 .main-content {
-	max-width: 730px;
+	max-width: 670px;
 	display: block;
 	margin: 0 auto;
 }
 
 .mainContentBio img {
-
+	max-width: 333px;
 	float: left;
-	margin: 0 10px 10px 0;
+	margin: 10px 10px 10px 0;
 }
 
   /**************
 GENERAL-PORTFOLIO
 **************/
 .portfolio-container {
-	max-width: 730px;
+	max-width: 670px;
 	margin: 40px auto;
 	display: block;
 }  
@@ -120,13 +105,19 @@ GENERAL-PORTFOLIO
 #gallery li {
 float: left;
 display: list-item;
-margin: 30px 10px;
+margin: 0 10px;
 list-style: none;
-
+clear: right;
 }	
+
+#gallery img {
+	max-width: 315px;
+}
+
 
 #gallery .list-1 { 
 	margin-left: 0;
+	
   }
 
 #gallery .list-2 { 
@@ -136,6 +127,7 @@ list-style: none;
 
 #gallery .list-3 { 
 	margin-left: 0;
+	
   }
 
 #gallery .list-4 { 
@@ -147,48 +139,90 @@ list-style: none;
 	margin-left: 0;
 }
 
-div.backgroundHangman {
-  background: url(../images/abstract-q-c-275-205-5.jpg);
- 	width: 315px; 
-	height: 235px;
-}
-
-div.backgroundRpg {
-  background: url(../images/animals-q-c-275-205-5.jpg);
-  width: 315px; 
-	height: 235px;
-}
-
-div.backgroundTrivia {
-  background: url(../images/city-q-c-275-205-2.jpg);
-  width: 315px; 
-	height: 235px;
-}
-
-div.backgroundRutgers {
-  background: url(../images/nature-q-c-275-205-8.jpg);
-  width: 315px; 
-	height: 235px;
- 
-}
-
-div.backgroundRockPaperScissors {
-  background: url(../images/nightlife-q-c-275-205-7.jpg);
-  width: 315px; 
-	height: 235px;
-}
 
 /**************
 SIDEBAR
 **************/
 	.sidebar {
-			max-width: 730px;
+			max-width: 670px;
 			float: none;
 			display: block;
 			margin: 40px auto;
 	}
 }
 @media only screen and (max-width: 640px) {
+	
+/**********
+HEADER
+***********/
 
-
+div.logo {
+	max-width: 640px;
+	display: block;
+	margin: 0 auto;
 }
+
+/**********************
+NAVIGATION
+**********************/
+
+nav {
+	clear: both;
+	max-width: 640px;
+	display: block;
+	float: none;
+	text-align: center;
+}
+
+/**********
+BODY-ABOUT-CONTACT
+***********/
+
+
+#wrap {
+	max-width: 550px;
+	margin: 40px auto;
+
+}	
+
+div.main-content {
+	max-width: 550px;
+	display: block;
+	margin: 0 auto;
+}
+.mainContentBio img {
+	max-width: 100%;
+}
+
+ /**************
+GENERAL-PORTFOLIO
+**************/
+.portfolio-container {
+	max-width: 540px;
+	margin: 40px auto;
+	display: block;
+}  
+  
+#gallery li {
+float: none;
+display: block;
+margin: 0 auto;
+list-style: none;
+
+}	
+
+#gallery img {
+	max-width: 540px;
+	width: 100%;
+}
+
+
+/**************
+SIDEBAR
+**************/
+	.sidebar {
+			max-width: 500px;
+			float: none;
+			display: block;
+			margin: 40px auto;
+	}
